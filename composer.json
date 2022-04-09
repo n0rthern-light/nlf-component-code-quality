@@ -1,0 +1,16 @@
+{
+    "name": "nlf/code-quality",
+    "description": "A metapackage that conveys standardized code quality tools",
+    "type": "metapackage",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Nlf\\CodeQuality\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require-dev": {
+        "phpstan/phpstan": "^1.5",
+        "squizlabs/php_codesniffer": "^3.6"
+    }
+}
