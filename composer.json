@@ -9,7 +9,7 @@
         }
     },
     "minimum-stability": "stable",
-    "require-dev": {
+    "require": {
         "phpstan/phpstan": "^1.5",
         "squizlabs/php_codesniffer": "^3.6"
     }
